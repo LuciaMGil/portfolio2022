@@ -1,0 +1,131 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.background {
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background: linear-gradient(160deg, #c0ebf2, #f3e6f9);
+    margin: 0;
+}
+
+.navbar-custom {
+    position: relative;
+    background-color: #eefffd;
+    
+}
+.nav-link {
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.navbar-brand {
+color: rgb(17, 16, 17);
+font-size: 40px !important;
+font-family: 'Julius Sans One', sans-serif;
+padding-left: 30px;
+}
+
+.site-navigation {
+	-webkit-box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+    
+}
+
+a:hover { color: rgb(108, 202, 236) !important; }
+
+h3 {
+    opacity: 0.6;
+}
+.container {
+    background-color: rgb(255, 255, 255);
+    height: 400px ;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 60px;
+    
+    
+}
+
+.containered {
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+h1 { 
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+.align {
+    align-items: center;
+    margin: auto 0;
+}
+.portim {
+    width: 60%;
+    height: 50%;
+   margin-top: 20px;
+   padding-left: 60px;
+}
+.img {
+    padding-left: 30px;
+    padding-top: 35px;
+    height: 90%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+    
+}
+h2 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 00;
+}
+div {
+    font-family: 'Crimson Text', serif;
+}
+ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+
+.btn.btn-primary {
+    background-color:rgb(66, 181, 234)!important;
+    border:rgb(66, 181, 234)!important;
+}
+
+.btn.btn-primary:hover {
+     background-color: rgb(52, 163, 214)!important;
+    border: rgb(53, 78, 93)!important;
+    color: #eeffee!important;
+}
+#message {
+    resize: none;
+}
+
+.btn.btn-primary.colorbtn {
+    background-color:rgb(66, 181, 234)!important;
+    border:rgb(66, 181, 234)!important;
+    color: #eeffee;
+}
+.btn.btn-primary.colorbtn:hover {
+    background-color: rgb(52, 163, 214)!important;
+    border: rgb(53, 78, 93)!important;
+    color: #eeffee!important;
+}
