@@ -4,8 +4,9 @@ html {
 body {
     height: 100%;
     margin: 0;
+    /* background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; */
 }
 .background {
 
@@ -125,7 +126,12 @@ ul {
     color: #eeffee;
 }
 .btn.btn-primary.colorbtn:hover {
-    background-color: rgb(52, 163, 214)!important;
+    background-color: rgb(9, 122, 174)!important;
     border: rgb(53, 78, 93)!important;
     color: #eeffee!important;
+}
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
 }
